@@ -11,10 +11,12 @@
 		9851A9D7242B04E30047F646 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851A9D6242B04E30047F646 /* SceneDelegate.swift */; };
 		9851A9D9242B04E30047F646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851A9D8242B04E30047F646 /* ViewController.swift */; };
 		9851A9DC242B04E30047F646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9851A9DA242B04E30047F646 /* Main.storyboard */; };
-		9851A9DE242B04E40047F646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9851A9DD242B04E40047F646 /* Assets.xcassets */; };
 		9851A9E1242B04E40047F646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9851A9DF242B04E40047F646 /* LaunchScreen.storyboard */; };
 		9851A9EC242B04E40047F646 /* Casale_Ballot_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851A9EB242B04E40047F646 /* Casale_Ballot_ProjectTests.swift */; };
 		9851A9F7242B04E40047F646 /* Casale_Ballot_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851A9F6242B04E40047F646 /* Casale_Ballot_ProjectUITests.swift */; };
+		988FE99B242B1221000F6EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988FE99A242B1221000F6EC9 /* Assets.xcassets */; };
+		988FE99F242B28D6000F6EC9 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FE99E242B28D6000F6EC9 /* VotingViewController.swift */; };
+		988FE9A1242B2A63000F6EC9 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FE9A0242B2A63000F6EC9 /* TBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		9851A9D6242B04E30047F646 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9851A9D8242B04E30047F646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9851A9DB242B04E30047F646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9851A9DD242B04E40047F646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9851A9E0242B04E40047F646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9851A9E2242B04E40047F646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9851A9E7242B04E40047F646 /* Casale Ballot ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Casale Ballot ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,9 @@
 		9851A9F2242B04E40047F646 /* Casale Ballot ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Casale Ballot ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9851A9F6242B04E40047F646 /* Casale_Ballot_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casale_Ballot_ProjectUITests.swift; sourceTree = "<group>"; };
 		9851A9F8242B04E40047F646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988FE99A242B1221000F6EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		988FE99E242B28D6000F6EC9 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		988FE9A0242B2A63000F6EC9 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 				9851A9D6242B04E30047F646 /* SceneDelegate.swift */,
 				9851A9D8242B04E30047F646 /* ViewController.swift */,
 				9851A9DA242B04E30047F646 /* Main.storyboard */,
-				9851A9DD242B04E40047F646 /* Assets.xcassets */,
+				988FE99E242B28D6000F6EC9 /* VotingViewController.swift */,
+				988FE9A0242B2A63000F6EC9 /* TBViewController.swift */,
+				988FE99A242B1221000F6EC9 /* Assets.xcassets */,
 				9851A9DF242B04E40047F646 /* LaunchScreen.storyboard */,
 				9851A9E2242B04E40047F646 /* Info.plist */,
 			);
@@ -233,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9851A9E1242B04E40047F646 /* LaunchScreen.storyboard in Resources */,
-				9851A9DE242B04E40047F646 /* Assets.xcassets in Resources */,
+				988FE99B242B1221000F6EC9 /* Assets.xcassets in Resources */,
 				9851A9DC242B04E30047F646 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988FE9A1242B2A63000F6EC9 /* TBViewController.swift in Sources */,
 				9851A9D9242B04E30047F646 /* ViewController.swift in Sources */,
 				9851A9D5242B04E30047F646 /* AppDelegate.swift in Sources */,
 				9851A9D7242B04E30047F646 /* SceneDelegate.swift in Sources */,
+				988FE99F242B28D6000F6EC9 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +441,6 @@
 		9851A9FC242B04E40047F646 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3LT59KJ27;
 				INFOPLIST_FILE = "Casale Ballot Project/Info.plist";
@@ -451,7 +458,6 @@
 		9851A9FD242B04E40047F646 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3LT59KJ27;
 				INFOPLIST_FILE = "Casale Ballot Project/Info.plist";
